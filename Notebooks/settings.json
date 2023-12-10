@@ -1,4 +1,4 @@
-{  "study_site": "SiteName",
+{  "study_site": "Caddo National Grassland",
     "boundary": {
         "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip",
         "local_path": "assets/study-site-boundaires/grasslands.shp",
@@ -6,15 +6,17 @@
     },
     "data_sources": {
         "soil": {
-            "type": "earthpy soil",
-            "url": "earthpy_dataset_url",
+            "property": "ph",
+            "stat": "mean",
+            "depth": "60_100",
+            
             "local_path": "data/rasters/soil"
         },
         "elevation": {
             "type": "custom_api",
             "api_endpoint": "custom_api_url",
             "parameters": {},
-            "local_path": "data/rasters/elevation"
+            "local_path": "/workspaces/golden-feather-grass-habitats/assets/bin/rasters/DEM"
         }
     }
 }

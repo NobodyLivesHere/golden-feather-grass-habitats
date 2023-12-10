@@ -1,7 +1,7 @@
 {  "study_site": "SiteName",
     "boundary": {
-        "url": "http://example.com/boundary_file.shp",
-        "local_path": "data/boundary/boundary_file.shp",
+        "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip",
+        "local_path": "assets/study-site-boundaires/grasslands.shp",
         "crs": "EPSG:4326"
     },
     "data_sources": {
@@ -13,7 +13,7 @@
         "elevation": {
             "type": "custom_api",
             "api_endpoint": "custom_api_url",
-            "parameters": { ... },
+            "parameters": {},
             "local_path": "data/rasters/elevation"
         }
     }

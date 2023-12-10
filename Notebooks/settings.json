@@ -1,0 +1,20 @@
+{  "study_site": "SiteName",
+    "boundary": {
+        "url": "http://example.com/boundary_file.shp",
+        "local_path": "data/boundary/boundary_file.shp",
+        "crs": "EPSG:4326"
+    },
+    "data_sources": {
+        "soil": {
+            "type": "earthpy soil",
+            "url": "earthpy_dataset_url",
+            "local_path": "data/rasters/soil"
+        },
+        "elevation": {
+            "type": "custom_api",
+            "api_endpoint": "custom_api_url",
+            "parameters": { ... },
+            "local_path": "data/rasters/elevation"
+        }
+    }
+}

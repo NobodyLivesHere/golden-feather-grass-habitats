@@ -17,6 +17,10 @@
             "api_endpoint": "custom_api_url",
             "parameters": {},
             "local_path": "/workspaces/golden-feather-grass-habitats/assets/bin/rasters/DEM"
+        },
+        "climate": {
+            "type": "climate_url",
+            "local_path": "/workspaces/golden-feather-grass-habitats/assets/bin/rasters/climate"
         }
     }
 }

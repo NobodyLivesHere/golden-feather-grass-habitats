@@ -1,0 +1,10 @@
+earthpy
+geopandas
+hvplot
+numpy
+pandas
+requests
+rioxarray
+scikit-fuzzy
+xarray
+xrspatial

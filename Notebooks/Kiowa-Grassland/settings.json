@@ -22,6 +22,9 @@
           },
           "climate": {
               "type": "climate_url",
+              "MACA_url": "http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_pr_bcc-csm1-1-m_r1i1p1_historical_1950_2005_CONUS_monthly.nc?var=precipitation&disableLLSubset=on&disableProjSubset=on&horizStride=1&time_start=1950-01-15T00%3A00%3A00Z&time_end=1950-12-15T00%3A00%3A00Z&timeStride=1&accept=netcdf",
+              "scenario": "historical",
+              "year": "1950",
               "local_path": "./data/rasters/climate"
           }
  

@@ -1,27 +1,16 @@
-# golden-feather-grass-habitats
-Habitat suitability model for Golden Feather Grass in North America
 
-One of the key consequences of global climate change is the environmental disruptions of organism habitat zones.  For animals such as polar bears and coral reefs, this is widely reported on and studied. For plants, changing habitat boundaries can have far reaching effects due to plants forming the basis for most food chains on the planet. As local changes that would 
-
-
-This model runs on a mostly modular python scripts that takes inputs for both study site and fuzzy logic model parameters from a seperate and easily editable .json file. 
-It is desiged so that if a set of boundaries are fed into it, it will retreive all relevant rasters from the designated datasets based on the coordinates of the study site, and the parameters specificed in the settings.json.
-Once all files are loaded in, the model will iterate over each pixel and determine its weighting via the fuzzy logic paramters set in the settings file, and return a level of habitat suitability based on the rules and relationships 
-provided in the file, by multiplying all the fuzzy factored rasters together.
-
-This model was created to assess the habitat suitability of National Grasslands under anthropogenic climate change but can theoretically be used with any boundary georeferenced dataset.  
-
-tbe
-gfdgdsfhsfd
 # Habitat Suitability Model for Golden Feather Grass in North America
 
 ## Introduction
+One of the key consequences of global climate change is the environmental disruptions of organism habitat zones.  For animals such as polar bears and coral reefs, this is widely reported on and studied. For plants, changing habitat boundaries can have far reaching effects due to plants forming the basis for most food chains on the planet. For grasses in particular, their habitat domains can very easily be measured quantitativley and tracked through time.  Thus if the paramters associated with habitability are represented and projected into the future, one may be able to generate a rough forecast of what this may be in tyhe future for that particular space.  
+
+This project aims to do this with a particular grass, Sorghastrum nutans, as a means of assessing the habitability of certain US National Grasslands give past, future, and present soil data, climate change forecast models, and DEM satellite data. It aims to also create a generalized template for running the same time of fuzzy matrix analysis over any bounded geodataframe and allows the user to directly edit the configurations to taylor it to their own analysis. 
 
 This document provides a detailed overview of a Python-based habitat suitability model developed for assessing potential habitats of Golden Feather Grass across North America, with a focus on adaptability to changing climatic conditions.
 
 ## Model Overview
 
-The model integrates geospatial data processing with fuzzy logic principles, offering a flexible approach to habitat suitability analysis.
+The model integrates geospatial data processing with fuzzy logic principles, offering a flexible approach to habitat suitability analysis. For the time being, it is a proof of concept only, as it currently is still being debugged.
 
 ### Data Input and Processing
 

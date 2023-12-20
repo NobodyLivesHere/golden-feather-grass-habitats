@@ -1,0 +1,8 @@
+Value,Source
+1,Water-masked SRTM void
+2,Water-masked SRTM non-void
+201,SRTM swath count (non-voided swaths) Actual=1
+202,SRTM swath count (non-voided swaths) Actual=2
+203,SRTM swath count (non-voided swaths) Actual=3
+204,SRTM swath count (non-voided swaths) Actual=4
+205,SRTM swath count (non-voided swaths) Actual=5

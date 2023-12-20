@@ -1,6 +1,6 @@
 [
     {
-        "study_site": "Kiowa National Grassland",
+        "study_site": "Caddo National Grassland",
         "boundary": {
             "url": "https://data.fs.usda.gov/geodata/edw/edw_resources/shp/S_USA.NationalGrassland.zip",
             "local_path": "assets/study-site-boundaires/grasslands.shp",
@@ -22,9 +22,9 @@
             },
             "climate": {
                 "type": "climate_url",
-                "MACA_url": "",
-                "scenario": "",
-                "year": "",
+                "MACA_url": "http://thredds.northwestknowledge.net:8080/thredds/ncss/agg_macav2metdata_pr_MIROC5_r1i1p1_rcp45_2006_2099_CONUS_monthly.nc?var=precipitation&north=49.3960&west=-124.7721&east=-67.0647&south=25.0630&disableLLSubset=on&disableProjSubset=on&horizStride=1&time_start=2050-01-15T00%3A00%3A00Z&time_end=2050-12-15T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf4",
+                "scenario": "RCP45",
+                "year": "2050",
                 "local_path": "./data/rasters/climate"
             }
    

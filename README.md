@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10408812.svg)](https://doi.org/10.5281/zenodo.10408812)
 
 # Habitat Suitability Model for Golden Feather Grass in North America
 
